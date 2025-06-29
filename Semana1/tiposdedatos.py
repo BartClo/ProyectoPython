@@ -13,3 +13,6 @@ print("17")
 print(type("17"))  #Al estar en comillas pasa a ser string/str
 
 print(1,000,000) #Al tener la , python interpreta como una lista de 3 números
+
+print(bool())
+print(type(bool()))
