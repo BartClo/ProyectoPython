@@ -29,9 +29,5 @@
 
 n = int(input())
 
-for n in range(0, n + 1):
-    n = n - 1
-    if n < 0:
-        continue
-    else:
-        print(n**2)
+for i in range(n):
+    print(i**2)
